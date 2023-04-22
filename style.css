@@ -1,5 +1,9 @@
 @import url('Styles/header.css');
 @import url('Styles/banner.css');
+@import url('Styles/swiper.css');
+@import url('Styles/topics.css');
+@import url('Styles/contact.css');
+@import url('Styles/footer.css');
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
 
 *{
@@ -13,7 +17,8 @@
   --white: #FFFFFF;
   --orange: #EB9B00;
   --blue-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
-  --primary-font:"Poppins"
+  --primary-font:"Poppins";
+  --blue: #002F52;
 }
 
 body{
