@@ -34,3 +34,14 @@
   background-repeat: no-repeat;
   background-position: 1em;
 }
+
+@media screen and (min-width: 1024px){
+
+  .banner__title{
+    font-size: 36px;
+  }
+
+  .banner__search{
+    width: 50%;
+  }
+}

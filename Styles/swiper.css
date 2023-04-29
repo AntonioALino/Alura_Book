@@ -74,3 +74,26 @@
   text-decoration: none;
   border-radius: 8px;
 }
+
+@media screen and (min-width:1024px){
+  .swiper__title{
+    font-size: 26px;
+
+  }
+
+  .swiper-pagination{
+    margin: 0 2em 0 2em;
+  }
+  .swiper{
+    width: 60%;
+  }
+
+  .swiper-button-next, .swiper-button-prev{
+    display: block;
+  }
+
+  .card{
+    width: 40%;
+    margin: 2em auto;
+  }
+}
