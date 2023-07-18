@@ -1,0 +1,45 @@
+.topics{
+  background: var(--blue-degrade);
+  text-align: center;
+  padding: 1em 0;
+}
+
+.topics__title{
+  color: var(--white);
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 1em;
+}
+
+.topics__list{
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.topics__itens{
+  color: var(--white);
+  background-color: var(--orange);
+  margin: 1em 0.5em;
+  padding: 1em;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.contact__input{
+  padding: 1em;
+  border-radius: 24px;
+  width: 90%;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+}
+
+.contact__input::placeholder{
+  
+  background-image: url(../Imgs/E-mail.svg);
+  background-repeat: no-repeat;
+  padding-left: 2em;
+  font-family: var(--primary-font);
+}
